@@ -68,6 +68,7 @@ body * {
 }
 
 #switch button {
+  cursor: pointer;
   position: absolute;
   z-index: 1;
 
@@ -177,6 +178,16 @@ footer {
   text-align: center;
 
   font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8257e6;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #8257e6;
 }
 
 /* media queries */
